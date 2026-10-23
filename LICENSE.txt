@@ -1,6 +1,6 @@
 SQLTREEO RESTORE END-USER LICENSE AGREEMENT
 
-Version 1.1, 19 October 2026
+Version 1.2, 23 October 2026
 
 This End-User License Agreement ("Agreement") is a legal agreement between you (an individual or a single legal entity, "you") and Databaseonline, Roosendaal, the Netherlands, trading as SQLTreeo, www.sqltreeo.com ("SQLTreeo", "we") for the SQLTreeo Restore software, consisting of the SQLTreeo Restore desktop application, the sqlrestore command line tool, related documentation and any updates SQLTreeo makes available (together the "Software"). The Software reads SQL Server backup files without a SQL Server, shows what they contain, and exports chosen tables to files or copies them into a SQL Server database.
 
@@ -53,11 +53,12 @@ You may not, and may not allow others to:
 (g) use the Software in breach of applicable law or of the rights of third parties, including to read Backup Files you are not entitled to read.
 
 
-6. License verification and updates
+6. License verification, start reports and updates
 
 6.1 The Software verifies a License Key online with the SQLTreeo license service. During verification the Software transmits the License Key, the computer name and the Software version; the license service also records the IP address of the connection. Verified keys keep working for 30 days without a connection; a key that cannot be verified for a longer period is treated as unverified until the next successful verification.
-6.2 The Software checks for updates at startup and periodically while it runs, by contacting the SQLTreeo Restore release feed. Only the request needed to read the list of releases is made. Automatic update checks can be switched off in the settings of the Software.
-6.3 No Backup Files, database contents, connection details, certificates, passwords or exported data are ever transmitted to SQLTreeo. Backup Files are read on your computer only. Connection details and the locations of certificate files stay on your computer; passwords you choose to save are encrypted with Windows Data Protection for your user account.
+6.2 When it starts, the Software reports the start to the SQLTreeo license service: the Software version, a random installation identifier created at the first start, the License Key if one is entered, the computer name, the time zone, the language and region setting, and the versions of Windows and .NET; the license service also records the IP address of the connection. SQLTreeo uses this only to see which versions of the Software are in use and where; nothing is checked or limited, and the Software works the same when the report cannot be sent.
+6.3 The Software checks for updates at startup and periodically while it runs, by contacting the SQLTreeo Restore release feed. Only the request needed to read the list of releases is made. Automatic update checks can be switched off in the settings of the Software.
+6.4 No Backup Files, database contents, connection details, certificates, passwords or exported data are ever transmitted to SQLTreeo. Backup Files are read on your computer only. Connection details and the locations of certificate files stay on your computer; passwords you choose to save are encrypted with Windows Data Protection for your user account.
 
 
 7. Backup files, your data and your responsibilities
